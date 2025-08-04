@@ -8,7 +8,7 @@ from langchain_ollama import OllamaLLM
 #from langchain_community.llms import Ollama  # 🔁 Local LLM instead of OpenAI
 
 # === CONFIG ===
-TXT_PATH = "/home/heritage-foundation/Office/Extraction/The Path Less Travelled/The Path Less Travelled.txt"
+TXT_PATH = ""
 
 # === STEP 1: Load .txt File ===
 loader = TextLoader(TXT_PATH)
